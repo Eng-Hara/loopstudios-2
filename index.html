@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"/>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Simple Tailwind Starter</title>
+  </head>
+  <body class="font-alata ">
+    <!--Hero Section-->
+    <section id="hero" >
+        <DIV class="h-auto pb-10 relative overflow-hidden   ">
+      <div class=" md:hover:bg-gradient-to-b from-slate-200 to-[#BABBBF]
+       hover:opacity-80 pb-10 transition-all duration-500">
+
+      
+      <div class="justify-between flex ">
+        <div class="text-white ml-10 mt-14 text-3xl"><img src="images/logo.svg" alt=""></div>
+        <div class="mr-10 mt-14 md:hidden">
+          <a href="">
+            <svg width="60px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 6H20M4 12H20M4 18H20" stroke="#fff" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+
+          </a>
+        </div>
+        <nav class="font-bold text-2xl text-white mr-16 mt-14 space-x-5 hidden md:flex">
+          
+          <div class="group">
+            <a>About</a>
+            <div class="group-hover:border-b mx-4 border-white"></div>
+          </div>
+          <div class="group">
+            <a>Crear</a>
+            <div class="group-hover:border-b mx-4 border-white"></div>
+          </div>
+          <div class="group">
+            <a>Events</a>
+            <div class="group-hover:border-b mx-4 border-white"></div>
+          </div>
+          <div class="group">
+            <a>Products</a>
+            <div class="group-hover:border-b mx-4 border-white"></div>
+          </div>
+          
+          <div class="group">
+            <a>Support</a>
+            <div class="group-hover:border-b mx-4 border-white"></div>
+          </div>
+          
+        </nav>
+        
+      </div>
+      <div class="text-white px-10 py-2 ml-5 md:ml-20 min-h-36 text-4xl  mt-48 border max-w-[420px]
+       md:max-w-[650px]  font-sans">
+        <p class="md:text-7xl ">IMPRESSIVE  EXPERIENCE THAT DELEVER</p>
+      
+       
+      </div>
+   
+      <div>
+        <h1 class="text-white mx-20 my-10  text-5xl uppercase w-1 hover:text-black ">Deep earth</h1>
+
+      </div>
+    </div>
+    </section>
+    <!--SECTION TWO-->
+    <section id="Reaction">
+      <div class="mt-28">
+        <div class="relativen">
+          <img class="max-h-[20%] max-w-[85%] ml-9 md:ml-24 md:max-w-[750px] md:h-[500px] "
+           src="./images/mobile/image-interactive.jpg">
+        </div>
+      <div class=" bg-white p-10 md:p-24 max-h-72 max-w-[550px] md:max-w-[900px]
+       text-center mt-10 md:ml-[50%] md:mr-28 md:mt-[-20%] md:absolute">
+        <h1 class="text-5xl font-sans  md:ml-0">THE LEADER IN INTERACTIVE VR</h1>
+        <p class="mt-5 text-gray-500 font-alata max-w-full  md:ml-0">Founded in 2011, Loopstudios has been producing
+           world-class virtual reality projects for some of
+            the best companies around the globe. Our award-winning
+             creations have transformed businesses through digital
+              experiences that bind to their brand.</p>
+      </div>
+      
+      </div>
+    </section>
+    <!---Our Creations-->
+    <div class="md:flex md:flex-row md:justify-between mt-48">
+    <div class=" ml-20">
+      <span class="text-5xl">Our Creations</span>
+    </div>
+    <div class="hidden  text-center  border border-black
+     p-2 max-w-[320px] ml-20 mt-5 md:mt-0 md:mr-10 md:w-[150px] 
+     hover:bg-black hover:text-white  md:flex md:justify-between ">
+      <a class="md:ml-10" href="#">SEE ALL</a>
+    </div>
+  </div>
+    <!--Cards Section-->
+    <section >
+      <div class="flex flex-row gap-10 flex-wrap h-auto overflow-hidden ">
+        <div>
+          <img src="images/desktop/image-deep-earth.jpg" class="hidden w-full 
+          duration-200 md:block hover:scale-105 my-2 mx-4" alt="">
+          <img src="images/mobile/image-deep-earth.jpg" class="w-full md:hidden" alt="">
+          
+        </div>
+        <div class="relative inline-block" >
+          <img src="images/desktop/image-night-arcade.jpg"
+           class="hidden w-full h-auto duration-200 md:block hover:scale-105 my-4 mx-4" alt="">
+          <img src="images/mobile/image-night-arcade.jpg" class="w-full h-screen md:hidden  " alt="">
+          <div class="absolute bottom-8 left-1/2 transform 
+          translate-x-[-50%] translate-y-[-50%] text-2xl uppercase">
+            <h2 class="text-white">Night Archade</h2>
+          </div>
+        </div>
+        <div class="relative inline-block">
+          <img src="images/desktop/image-soccer-team.jpg" class="hidden w-full duration-200 md:block my-4 mx-4 hover:scale-110  " alt="">
+          <img src="images/mobile/image-soccer-team.jpg" class="w-full md:hidden">
+          <div class="absolute bottom-24 lef-1/2 transform translate-x-[50%]  translate-y-1/2 text-3xl w-1/2 uppercase  ">
+            <h2 class="text-white">Soccer Team Vr</h2>
+          </div>
+        </div>
+        <div  class="relative inline-block">
+          <img src="images/desktop/image-grid.jpg" class="w-full hidden md:block mx-4 my-4 hover:scale-110 duration-200" alt="">
+          <img src="images/mobile/image-grid.jpg" class="w-full md:hidden" alt="">
+          <div class="absolute  bottom-14 left-20">
+            <h2 class="text-white uppercase text-2xl ">The Grid</h2>
+          </div>
+          
+        </div>
+        <div  class="relative inline-block">
+          <img src="images/desktop/image-from-above.jpg" class="w-full hidden md:block mx-4 my-4 hover:scale-110 duration-200 " alt="">
+          <img src="images/mobile/image-from-above.jpg" class="w-full md:hidden" alt="">
+          <div class="absolute bottom-10 text-center left-10">
+            <h2 class="text-white text-2xl uppercase w-1/2">From Up above Vr</h2>
+          </div>
+        </div>
+        <div class="relative inline-block">
+          <img src="images/desktop/image-pocket-borealis.jpg" class="w-full hidden md:block mx-4 my-4 hover:scale-110 duration-200" alt="">
+          <img src="images/mobile/image-pocket-borealis.jpg" class="w-full md:hidden" alt="">
+          <div class="absolute bottom-10 text-center left-10">
+            <h2 class="text-white text-2xl uppercase w-1/2">pocket-borealis</h2>
+          </div>
+        </div>
+        <div class="relative inline-block">
+          <img src="images/desktop/image-curiosity.jpg" class="w-full hidden md:block mx-4 my-4 hover:scale-110 duration-200" alt=""> 
+          <img src="images/mobile/image-curiosity.jpg"  class="w-full md:hidden" alt="">
+          <div class="absolute bottom-10 text-center left-10">
+            <h2 class="text-white text-2xl uppercase w-1/2">The Curiosity</h2>
+          </div>
+        </div>
+        <div class="relative inline-block">
+          <img src="images/desktop/image-fisheye.jpg" class="w-full hidden md:block mx-4 my-4 hover:scale-110 duration-200" alt="">
+          <img src="images/mobile/image-fisheye.jpg" class="w-full md:hidden" alt="">
+          <div class="absolute bottom-10 text-center left-10">
+            <h2 class="text-white text-2xl uppercase w-1/2 ">Make it Fish eye</h2>
+          </div>
+        </div>
+        
+
+      </div>
+   
+   
+  </section>
+    <!--Footer Section-->
+    <section id="" class="justify-center items-center text-center">
+      <div class="bg-black  mt-20 text-white min-h-[500px] md:min-h-[200px] md:justify-between">
+        
+        <div class="flex flex-col space-y-5 justify-center text-center md:block
+         md:space-x-6 md:flex-row md:space-y-0 md:text-left md:mx-0 md:ml-20 md:w-[500px]">
+        <h1 class="text-4xl text-center py-7 md:w-0 md:ml-7 ">loopstudios</h1>
+        <a class="hover:border-b mx-52 md:mx-auto no-underline " href="#">ABOUT</a>
+        <a class="hover:border-b mx-52 md:mx-auto" href="#">CAREER</a>
+        <a class="hover:border-b mx-52 md:mx-auto" href="#">EVENTS</a>
+        <a class="hover:border-b mx-52 md:mx-auto" href="#">PRODUCTS</a>
+        <a class="hover:border-b mx-52 md:mx-auto" href="#">SUPPORT</a>
+        </div>
+        <div class="flex mr-24 mt-5 space-x-5 justify-center  float-right
+         md:flex md:flex-row px-10 md:mt-[-5%] md:mr-32">
+        <a href="#hero"><img src="./images/icon-facebook.svg" alt=""></a>
+        <a href="#hero]"><img src="./images/icon-twitter.svg" alt=""></a>
+        <a href="#hero"><img src="./images/icon-pinterest.svg" alt=""></a>
+        <a href="#hero"><img src="./images/icon-instagram.svg" alt=""></a>
+        
+      </div>
+      <div class="space-x-5  float-right md:flex md:flex-row px-10 md:mt-[-4%] ">
+        <p class="text-center mt-7 text-blue-500 md:block">&copy; 2024 by Rage. All Rights Reserved !!!</p>
+    </div>
+      
+       
+      </div>
+
+    </section>
+  </body>
+</html>
